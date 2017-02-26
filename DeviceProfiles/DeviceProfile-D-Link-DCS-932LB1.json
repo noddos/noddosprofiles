@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "2d9cbeab-06fb-4968-b905-63d867e892ad",
+    "LastUpdated": "2017-02-01 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "D-Link",
+    "Model": "DCS-932LB1",
+    "ManufacturerUrl": "http://www.dlink.com",
+    "ModelUrl": "http://www.dlink.com",
+    "ThingClass": "Security Camera",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "D-Link",
+                    "SsdpModelName": "DCS-932LB1"
+            }
+        }
+    ]
+}

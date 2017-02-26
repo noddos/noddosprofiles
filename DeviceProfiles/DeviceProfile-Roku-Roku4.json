@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "5ec4dd66-22ee-4cd6-beed-fa4fdfd38c34",
+    "LastUpdated": "2017-02-04 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Roku",
+    "ManufacturerUrl": "http://www.roku.com/",
+    "Model": "Roku 4",
+    "ModelUrl": "http://www.roku.com/",
+    "ThingClass": "OTT STB",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Roku",
+                    "SsdpModelName": "Roku 4"
+            }
+        }
+    ]
+}

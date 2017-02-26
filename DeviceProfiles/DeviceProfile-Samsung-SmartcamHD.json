@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "7d8f2ed0-38f9-455d-a816-89a1daeb6ae2",
+    "LastUpdated": "2017-01-22 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Samsung",
+    "ManufacturerUrl": "http://www.samsungtechwin.com/",
+    "Model": "SNH-E6440BN",
+    "ModelUrl": "http://www.samsungtechwin.com/",
+    "ThingClass": "Security Camera",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "SAMSUNG",
+                    "SsdpModelName": "SNH-E6440BN"
+            }
+        }
+    ]
+}

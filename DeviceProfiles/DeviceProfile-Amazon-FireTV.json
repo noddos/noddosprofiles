@@ -1,0 +1,18 @@
+{
+    "DeviceProfileUuid": "694e8c7e-69f0-400f-824d-b94af7c7b7cc",
+    "LastUpdated": "2017-01-22 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Amazon",
+    "Model": "FireTV",
+    "ThingClass": "OTT STB",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Amazon.com, Inc.",
+                    "SsdpModelName": "FireTV"
+            }
+        }
+    ]
+}

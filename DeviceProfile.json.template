@@ -1,0 +1,21 @@
+{
+    "DeviceProfileUuid": "",
+    "LastUpdated": "2017-01-22 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "",
+    "Model": "",
+    "ThingClass": "",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "",
+                    "SsdpModelName": ""
+            },
+            "MustContain": {
+                    "DnsQueries": [""]
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "7b50c7cd-d7b9-40ad-980d-0b520ad3d05e",
+    "LastUpdated": "2017-01-22 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Microsoft",
+    "ManufacturerUrl": "http://www.microsoft.com/",
+    "Model": "Xbox 360",
+    "ModelUrl": "http://www.xbox.com/",
+    "ThingClass": "Game Console",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Never",
+            "MustMatch": {
+                    "SsdpManufacturer": "Microsoft Corporation",
+                    "SsdpModelName": "Xbox 360"
+            }
+        }
+    ]
+}

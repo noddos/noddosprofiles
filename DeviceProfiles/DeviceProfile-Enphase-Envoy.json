@@ -1,0 +1,24 @@
+{
+    "DeviceProfileUuid": "6e617357-5a44-4f5a-8675-5ecba34055be",
+    "LastUpdated": "2017-01-28 13:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Enphase",
+    "Model": "Envoy",
+    "ThingClass": "Solar Gateway",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustContain": {
+                    "DnsQueries": ["ping.enphaseenergy.com"]
+            }
+        },
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustContain": {
+                    "DnsQueries": ["reports.enphaseenergy.com"]
+            }
+        }
+    ]
+}

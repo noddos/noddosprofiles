@@ -1,0 +1,19 @@
+{
+    "DeviceProfileUuid": "dff464bf-c954-43d2-8b5a-87ef4b632da5",
+    "LastUpdated": "2017-01-22 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "ASUSTeK",
+    "ManufacturerUrl": "http://www.asus.com",
+    "Model": "RT-AC66U",
+    "ThingClass": "Home Gateway",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Low",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "ASUSTeK Corporation",
+                    "SsdpModelName": "WPS Router"
+            }
+        }
+    ]
+}

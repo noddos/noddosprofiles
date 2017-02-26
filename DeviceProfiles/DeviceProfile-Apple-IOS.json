@@ -1,0 +1,21 @@
+{
+    "DeviceProfileUuid": "ea87ad80-4fd8-4c23-9301-86dd1742ef87",
+    "LastUpdated": "2017-01-22 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Apple",
+    "Model": "IOS device",
+    "ThingClass": "Phone Tablet",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustContain": {
+                "DnsQueries": [
+                    "init.itunes.apple.com", 
+                    "apps.itunes.com", 
+                    "time-ios.g.aaplimg.com"
+                ]
+            }
+        }
+    ]
+}

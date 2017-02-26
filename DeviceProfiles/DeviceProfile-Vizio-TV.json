@@ -1,0 +1,37 @@
+{
+    "DeviceProfileUuid": "2ae4a61f-75f7-481f-b28c-e3534ee1e04b",
+    "LastUpdated": "2017-02-05 11:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Vizio",
+    "Model": "TV",
+    "ThingClass": "SmartTV",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "DhcpVendor": "Linux 3.4.39.13 armv7l"
+            },
+            "MustContain": {
+                "DnsQueries": [
+                    "ctv.zenfs.com",
+                    "control.tvinteractive.tv",
+                    "gallery.tv.widgets.yahoo.com"
+                ]
+            }
+        },
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "DhcpHostname": "udhcp 0.9.9-pre"
+            },
+            "MustContain": {
+                "DnsQueries": [
+                    "control2.tvinteractive.tv",
+                    "bis-tv-widgets.secure.yahoo.com"
+                ]
+            }
+        }
+    ]
+}

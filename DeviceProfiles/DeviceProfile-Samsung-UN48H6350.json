@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "b2e13a63-c40b-4448-b524-3c2852bc1cb7",
+    "LastUpdated": "2017-01-22 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Samsung",
+    "ManufacturerUrl": "http://www.samsung.com/sec",
+    "Model": "UN48H6350",
+    "ModelUrl": "http://www.samsung.com/sec",
+    "ThingClass": "SmartTV",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Samsung Electronics",
+                    "SsdpModelName": "UN48H6350"
+            }
+        }
+    ]
+}

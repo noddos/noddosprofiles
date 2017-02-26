@@ -1,0 +1,22 @@
+{
+    "DeviceProfileUuid": "13af20e3-3619-47d2-a5fc-7fda65d3a571",
+    "LastUpdated": "2017-02-04 05:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Microsoft",
+    "Model": "Windows Phone",
+    "ThingClass": "Phone Tablet",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "DhcpHostname": "MSFT 5.0"
+            },
+            "MustContain": {
+                "DnsQueries": [
+                    "winphone.wns.windows.com"
+                ]
+            }
+        }
+    ]
+}

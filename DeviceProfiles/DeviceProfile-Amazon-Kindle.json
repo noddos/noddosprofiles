@@ -1,0 +1,22 @@
+{
+    "DeviceProfileUuid": "13af20e3-3619-47d2-a5fc-7fda65d3a571",
+    "LastUpdated": "2017-02-05 11:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Amazon",
+    "Model": "Kindle",
+    "ThingClass": "Phone Tablet",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "DhcpHostname": "kindle-*"
+            },
+            "MustContain": {
+                "DnsQueries": [
+                    "api.amazon.com"
+                ]
+            }
+        }
+    ]
+}
