@@ -19,7 +19,7 @@ Boolean specifying whether traffic stats for devices matching this profile shoul
 - __Manufacturer__: 
 User-friendly name of the manufacturer of the device.
 
-- __Manufacturer__:
+- __Model__:
 User-friendly name of the model of the device.
 
 - __ThingClass__:
