@@ -13,9 +13,7 @@
                     "DhcpHostname": "kindle-*"
             },
             "MustContain": {
-                "DnsQueries": [
-                    "api.amazon.com"
-                ]
+                "DnsQueries": "api.amazon.com"
             }
         }
     ]

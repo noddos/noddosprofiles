@@ -10,11 +10,13 @@
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "None",
             "MustContain": {
-                "DnsQueries": [
-                    "init.itunes.apple.com", 
-                    "apps.itunes.com", 
-                    "time-ios.g.aaplimg.com"
-                ]
+                "DnsQueries": "init.itunes.apple.com"
+            },
+            "MustContain": {
+                "DnsQueries": "apps.itunes.com"
+            },
+            "MustContain": {
+                "DnsQueries": "time-ios.g.aaplimg.com"
             }
         }
     ]

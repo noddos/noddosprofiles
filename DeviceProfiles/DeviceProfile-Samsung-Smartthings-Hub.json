@@ -10,7 +10,7 @@
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "Medium",
             "MustContain": {
-                    "DnsQueries": ["fw-update.smartthings.com"]
+                    "DnsQueries": "fw-update.smartthings.com"
             }
         }
     ]

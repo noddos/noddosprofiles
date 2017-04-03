@@ -13,9 +13,7 @@
                 "DhcpVendor": "udhcp 1.19.4"
             },
             "MustContain" : {
-                "DnsQueries": [
-                    "pins.amazon.com"
-                ]
+                "DnsQueries": "pins.amazon.com"
             }
         }
     ]
