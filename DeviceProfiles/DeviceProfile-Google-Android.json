@@ -10,7 +10,7 @@
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
-                    "DhcpHostname": "android-*",
+                    "Hostname": "android-*",
                     "DhcpVendor": "dhcpcd-5.5.6"
             },
             "MustContain": {
@@ -21,7 +21,7 @@
             "IdentifyConfidenceLevel": "Low",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
-                    "DhcpHostname": "android-*",
+                    "Hostname": "android-*",
                     "DhcpVendor": "android-dhcp-7.0"
             }
         }
