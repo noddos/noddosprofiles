@@ -30,7 +30,7 @@ List of json objects specifying matching criteria to identify a device. If any o
 
 Each identifier consists of the following fields:
 - __IdentifyConfidenceLevel__:
-Possible values are Low, Medium or High. Going forward, the profile match with the highest confidence level will be selected.
+Possible values are Low, Medium or High. The match with the profile with highest confidence level will be selected.
 
 - __EnforceConfidenceLevel__:
 Possible values are 'None', 'Low', 'Medium', 'High'. Going forward, ACLs will only be applied if the EnforceConfidenceLevel for the match exceed a configurable threshold.
@@ -46,13 +46,13 @@ There are several criteria that can be used in MustMatch. Strings can be wildcar
 - SsdpModelName
 - DhcpVendor
 - DhcpHostname
-- Mac
+- MacOid
 - SsdpFriendlyName
 - SsdpUdn
 - SsdpSerialNumber
 - SsdpManufacturerUrl
 - SsdpModelUrl
 
-The MustContain object only supports the DnsQueries criteria, which has a JSON list of FQDN strings as values.
+The MustContain object only supports the DnsQueries criteria, which has a FQDN as value.
 
 There is no support yet for specifying ACLs as that has not yet been implemented.
