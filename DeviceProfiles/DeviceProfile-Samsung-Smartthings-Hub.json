@@ -12,6 +12,16 @@
             "MustContain": {
                     "DnsQueries": "fw-update.smartthings.com"
             }
+        },
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "Medium",
+            "MustContain": {
+                    "DnsQueries": "fw-update2.smartthings.com"
+            },
+            "MustContain": {
+                    "DnsQueries": "dc.connect.smartthings.com"
+            }
         }
     ]
 }
