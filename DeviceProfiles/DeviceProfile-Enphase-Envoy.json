@@ -10,14 +10,14 @@
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "None",
             "MustContain": {
-                    "DnsQueries": "ping.enphaseenergy.com"
+                    "DnsQueries": [ "ping.enphaseenergy.com" ]
             }
         },
         {
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "None",
             "MustContain": {
-                    "DnsQueries": "reports.enphaseenergy.com"
+                    "DnsQueries": [ "reports.enphaseenergy.com" ]
             }
         }
     ]

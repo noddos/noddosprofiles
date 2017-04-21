@@ -14,7 +14,7 @@
                     "DhcpVendor": "dhcpcd-5.5.6"
             },
             "MustContain": {
-                    "DnsQueries": "play.googleapis.com"
+                    "DnsQueries": [ "play.googleapis.com" ]
             }
         },
         {

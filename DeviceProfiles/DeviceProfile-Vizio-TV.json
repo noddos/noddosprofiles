@@ -13,26 +13,23 @@
                     "DhcpVendor": "Linux 3.4.39.13 armv7l"
             },
             "MustContain": {
-                "DnsQueries": "ctv.zenfs.com"
-            },
-            "MustContain": {
-                "DnsQueries": "control.tvinteractive.tv"
-            },
-            "MustContain": {
-                "DnsQueries": "gallery.tv.widgets.yahoo.com"
+                "DnsQueries": [
+                    "ctv.zenfs.com",
+                    "control.tvinteractive.tv",
+                    "gallery.tv.widgets.yahoo.com"
+                ]
             }
         },
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
             "MustMatch": {
-                    "DhcpHostname": "udhcp 0.9.9-pre"
-            },
-            "MustContain": {
-                "DnsQueries": "control2.tvinteractive.tv"
-            },
-            "MustContain": {
-                "DnsQueries": "bis-tv-widgets.secure.yahoo.com"
+                    "DhcpHostname": [
+                        "udhcp 0.9.9-pre",
+                        "control2.tvinteractive.tv",
+                        "bis-tv-widgets.secure.yahoo.com"
+                    ]
+                }
             }
         }
     ]

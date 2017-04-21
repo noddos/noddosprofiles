@@ -13,7 +13,7 @@
                     "DhcpHostname": "MSFT 5.0"
             },
             "MustContain": {
-                "DnsQueries": "winphone.wns.windows.com"
+                "DnsQueries": [ "winphone.wns.windows.com" ]
             }
         }
     ]
