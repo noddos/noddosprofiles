@@ -24,8 +24,11 @@
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
             "MustMatch": {
-                "DhcpHostname": [
-                    "udhcp 0.9.9-pre",
+                "DhcpHostname": "udhcp 0.9.9-pre"
+            },
+            "MustContain": {
+                "DnsQueries": [
+                    "ctv.zenfs.com",
                     "control2.tvinteractive.tv",
                     "bis-tv-widgets.secure.yahoo.com"
                 ]
