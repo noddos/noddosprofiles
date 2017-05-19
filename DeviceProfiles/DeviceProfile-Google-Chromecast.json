@@ -14,6 +14,13 @@
                     "SsdpManufacturer": "Google Inc.",
                     "SsdpModelName": "Eureka Dongle"
             }
+        },
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+                    "DhcpHostname": "chromecast"
+            }
         }
     ]
 }
