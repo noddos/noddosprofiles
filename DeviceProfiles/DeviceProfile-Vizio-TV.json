@@ -1,6 +1,7 @@
 {
     "DeviceProfileUuid": "2ae4a61f-75f7-481f-b28c-e3534ee1e04b",
-    "LastUpdated": "2017-02-05 11:44:47.634603+00:00",
+    "DeviceProfileVersion": 2,
+    "LastUpdated": "2017-05-19 11:44:47.634603+00:00",
     "UploadStats": true,
     "Manufacturer": "Vizio",
     "Model": "TV",
@@ -14,7 +15,6 @@
             },
             "MustContain": {
                 "DnsQueries": [
-                    "ctv.zenfs.com",
                     "control.tvinteractive.tv",
                     "gallery.tv.widgets.yahoo.com"
                 ]
@@ -28,7 +28,7 @@
             },
             "MustContain": {
                 "DnsQueries": [
-                    "ctv.zenfs.com",
+					"control-zoo-dtsprod.tvinteractive.tv",
                     "control2.tvinteractive.tv",
                     "bis-tv-widgets.secure.yahoo.com"
                 ]

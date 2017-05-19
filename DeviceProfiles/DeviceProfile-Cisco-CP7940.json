@@ -1,0 +1,19 @@
+{
+    "DeviceProfileUuid": "e43ce60a-9945-4df4-8e56-88c3513f21a5",
+    "DeviceProfileVersion": 1,
+    "LastUpdated": "2017-05-19 11:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Cisco",
+    "Model": "CP-7940",
+	"ModelUrl": "http://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7940g/index.html",
+    "ThingClass": "VoIP phone",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+                    "DhcpHostname": "Cisco Systems, Inc. IP Phone CP-7940"
+            }
+        }
+    ]
+}
