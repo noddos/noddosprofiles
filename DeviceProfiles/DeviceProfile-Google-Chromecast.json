@@ -1,7 +1,7 @@
 {
     "DeviceProfileUuid": "5551d6ff-5afb-45b2-b97f-670af552241e",
-    "DeviceProfileVersion": 1,
-    "LastUpdated": "2017-04-03 07:44:47.634603+00:00",
+    "DeviceProfileVersion": 2,
+    "LastUpdated": "2017-05-19 07:44:47.634603+00:00",
     "UploadStats": true,
     "Manufacturer": "Google",
     "Model": "Chromecast",
@@ -11,7 +11,6 @@
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
-                    "DhcpHostname": "Chromecast",
                     "SsdpManufacturer": "Google Inc.",
                     "SsdpModelName": "Eureka Dongle"
             }
