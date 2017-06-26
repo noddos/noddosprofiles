@@ -1,0 +1,19 @@
+{
+    "DeviceProfileUuid": "a6e4e65d-e3ae-4a9a-bba6-2562ed06bacd",
+    "DeviceProfileVersion": 1,
+    "LastUpdated": "2017-06-19 07:44:47.634603+00:00",
+    "UploadStats": true,
+    "Manufacturer": "Google",
+    "Model": "OnHub-WiFi",
+    "ThingClass": "Home Gateway",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+                    "SsdpManufacturer": "Google",
+                    "SsdpModelName": "OnHub"
+            }
+        }
+    ]
+}
