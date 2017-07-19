@@ -10,8 +10,8 @@ A Device Profile is a json object with the following fields
 - __DeviceProfileUuid__:
 This is [UUID version 4](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29) string that uniquely identifies the profile. There is small script in tools/getuuid.py that can create one for you.
 
-- __LastUpdated__:
-String with last date/time (in ISO8601 format) that an edit was made to this profile. The NoDDos client tools will invalidate any mappings between a device and this profile if that mapping was created before this date/time. The value must be manually set.
+- __DeviceProfileVersion__:
+Version number for this profile. The NoDDos client tools will invalidate any mappings between a device and this profile if that mapping was based on the same profile but with a lower version number. The value must be manually set.
 
 - __UploadStats__:
 Boolean specifying whether traffic stats for devices matching this profile should be uploaded to the cloud. Because of privacy concerns, the device profile for Windows PCs has this set to false.
