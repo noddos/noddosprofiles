@@ -27,7 +27,7 @@
             },
             "MustContain": {
                 "DnsQueries": [
-					"control-zoo-dtsprod.tvinteractive.tv",
+                    "control-zoo-dtsprod.tvinteractive.tv",
                     "control2.tvinteractive.tv",
                     "bis-tv-widgets.secure.yahoo.com"
                 ]

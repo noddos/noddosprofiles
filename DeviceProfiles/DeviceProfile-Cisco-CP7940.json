@@ -4,7 +4,7 @@
     "UploadStats": true,
     "Manufacturer": "Cisco",
     "Model": "CP-7940",
-	"ModelUrl": "http://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7940g/index.html",
+    "ModelUrl": "http://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7940g/index.html",
     "ThingClass": "VoIP phone",
     "Identifiers": [
         {

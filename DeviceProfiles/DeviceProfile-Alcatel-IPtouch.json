@@ -4,7 +4,7 @@
     "UploadStats": true,
     "Manufacturer": "Alcatel",
     "Model": "IP Touch",
-	"ModelUrl": "http://enterprise.alcatel-lucent.com/?product=8SeriesIPTouchPhones&page=overview",
+    "ModelUrl": "http://enterprise.alcatel-lucent.com/?product=8SeriesIPTouchPhones&page=overview",
     "ThingClass": "VoIP phone",
     "Identifiers": [
         {

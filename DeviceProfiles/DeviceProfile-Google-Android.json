@@ -24,9 +24,9 @@
                     "Hostname": "android-*",
                     "DhcpVendor": "android-dhcp-*"
             },
-			"MustContain": {
-					"Dnsqueries": [ "android.clients.google.com", "play.googleapis.com" ]
-			}
+            "MustContain": {
+                    "Dnsqueries": [ "android.clients.google.com", "play.googleapis.com" ]
+            }
         }
     ]
 }
