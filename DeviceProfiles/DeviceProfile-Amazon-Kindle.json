@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "beae329a-1836-446b-974c-d429ad05862b",
-    "DeviceProfileVersion": 1,
+    "DeviceProfileVersion": 2,
     "UploadStats": true,
     "Manufacturer": "Amazon",
     "Model": "Kindle",
@@ -14,6 +14,13 @@
             },
             "MustContain": {
                 "DnsQueries": [ "api.amazon.com" ]
+            }
+        },
+        {
+            "IdentifyConfidenceLevel": "Low",
+            "EnforceConfidenceLevel": "None",
+            "MustContain": {
+                "DnsQueries": [ "dns.kindle.com", "softwareupdates.amazon.com" ]
             }
         }
     ]

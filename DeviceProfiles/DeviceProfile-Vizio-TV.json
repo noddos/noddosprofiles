@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "2ae4a61f-75f7-481f-b28c-e3534ee1e04b",
-    "DeviceProfileVersion": 2,
+    "DeviceProfileVersion": 3,
     "UploadStats": true,
     "Manufacturer": "Vizio",
     "Model": "TV",
@@ -23,7 +23,7 @@
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
             "MustMatch": {
-                "DhcpHostname": "udhcp 0.9.9-pre"
+                "DhcpVendor": "udhcp 0.9.9-pre"
             },
             "MustContain": {
                 "DnsQueries": [
