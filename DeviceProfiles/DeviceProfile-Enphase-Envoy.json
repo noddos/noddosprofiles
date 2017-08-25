@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "6e617357-5a44-4f5a-8675-5ecba34055be",
-    "DeviceProfileVersion": 1,
+    "DeviceProfileVersion": 2,
     "UploadStats": true,
     "Manufacturer": "Enphase",
     "Model": "Envoy",
@@ -8,17 +8,20 @@
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "High",
-            "EnforceConfidenceLevel": "None",
             "MustContain": {
                     "DnsQueries": [ "ping.enphaseenergy.com" ]
             }
         },
         {
             "IdentifyConfidenceLevel": "High",
-            "EnforceConfidenceLevel": "None",
             "MustContain": {
                     "DnsQueries": [ "reports.enphaseenergy.com" ]
             }
         }
+    ],
+    "AllowedEndpoints": [
+        "52.0.243.48", "52.216.0.144", "52.216.0.144", "52.216.19.8", "52.216.2.24",
+        "52.216.20.32", "52.216.20.56", "52.216.21.19", "52.216.22.3", "52.216.64.48",
+        "52.216.48.80", "52.216.17.32", "reports.enphaseenergy.com", "ping.enphaseenergy.com"
     ]
 }
