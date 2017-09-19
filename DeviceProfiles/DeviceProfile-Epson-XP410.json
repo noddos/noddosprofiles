@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "ab29a064-4f95-43c9-8def-7ff0e353e865",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Epson",
+    "ManufacturerUrl": "http://www.epson.com/",
+    "Model": "XP-410 Series",
+	"ModelUrl": "https://epson.com/Support/Printers/All-In-Ones/XP-Series/Epson-XP-410/s/SPT_C11CC87201",
+    "ThingClass": "Printer",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "MdnsManufacturer": "EPSON",
+                    "MdnsModelName": "XP-410 Series"
+            }
+        }
+    ]
+}
