@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "2ae4a61f-75f7-481f-b28c-e3534ee1e04b",
-    "DeviceProfileVersion": 3,
+    "DeviceProfileVersion": 4,
     "UploadStats": true,
     "Manufacturer": "Vizio",
     "Model": "TV",
@@ -20,6 +20,20 @@
             }
         },
         {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                "DhcpVendor": "dhcpcd-*"
+            },
+            "MustContain": {
+                "DnsQueries": [
+                    "control-zoo-dtsprod.tvinteractive.tv",
+                    "control2.tvinteractive.tv",
+                    "bis-tv-widgets.secure.yahoo.com"
+                ]
+            }
+         },
+         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
             "MustMatch": {

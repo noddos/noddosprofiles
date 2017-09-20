@@ -1,9 +1,9 @@
 {
-    "DeviceProfileUuid": "81412b79-d2e4-426a-a5c6-0cab5d7e4e56",
-    "DeviceProfileVersion": 2,
+    "DeviceProfileUuid": "af6fbbc3-3d63-4d9e-88b0-17da85b26c49",
+    "DeviceProfileVersion": 1,
     "UploadStats": true,
     "Manufacturer": "Samsung",
-    "Model": "Galaxy S6",
+    "Model": "Galaxy Tab A",
     "ThingClass": "Phone Tablet",
     "Identifiers": [
         {

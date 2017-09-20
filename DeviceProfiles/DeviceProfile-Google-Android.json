@@ -10,13 +10,24 @@
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
-                    "Hostname": "android-*",
+                    "DhcpHostname": "android-*",
                     "DhcpVendor": "dhcpcd-*"
             },
-            "MustContain": {
+             "MustContain": {
                     "DnsQueries": [ "android.clients.google.com", "play.googleapis.com" ]
             }
         },
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+                    "DhcpHostname": "android-*",
+                    "DhcpVendor": "android-dhcp-*"
+            },
+            "MustContain": {
+                    "Dnsqueries": [ "android.clients.google.com"]
+            }
+		},
         {
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "Low",
