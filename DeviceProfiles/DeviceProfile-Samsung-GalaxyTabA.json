@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "af6fbbc3-3d63-4d9e-88b0-17da85b26c49",
-    "DeviceProfileVersion": 1,
+    "DeviceProfileVersion": 2,
     "UploadStats": true,
     "Manufacturer": "Samsung",
     "Model": "Galaxy Tab A",
@@ -10,7 +10,7 @@
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
-                    "DhcpHostname": "SAMSUNG-SM-G920A",
+                    "DhcpHostname": "Galaxy-Tab-A",
 					"DhcpVendor": "android-dhcp*"
             }
         }
