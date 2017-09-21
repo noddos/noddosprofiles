@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "76905373-748b-4e25-a550-296b3e1c7086",
-    "DeviceProfileVersion": 4,
+    "DeviceProfileVersion": 5,
     "UploadStats": true,
     "Manufacturer": "Google",
     "Model": "Android device",
@@ -25,7 +25,7 @@
                     "DhcpVendor": "android-dhcp-*"
             },
             "MustContain": {
-                    "Dnsqueries": [ "android.clients.google.com"]
+                    "DnsQueries": [ "android.clients.google.com"]
             }
 		},
         {
@@ -35,7 +35,7 @@
                     "DhcpVendor": "android-dhcp-*"
             },
             "MustContain": {
-                    "Dnsqueries": [ "android.clients.google.com"]
+                    "DnsQueries": [ "android.clients.google.com"]
             }
         }
     ]

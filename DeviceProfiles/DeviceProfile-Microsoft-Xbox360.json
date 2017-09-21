@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "7b50c7cd-d7b9-40ad-980d-0b520ad3d05e",
-    "DeviceProfileVersion": 2,
+    "DeviceProfileVersion": 3,
     "UploadStats": true,
     "Manufacturer": "Microsoft",
     "ManufacturerUrl": "http://www.microsoft.com/",
@@ -23,7 +23,7 @@
                     "DhcpVendor": "Xbox 360"
             },
 			"MustContain": {
-                    "Dnsqueries": [ "settings.xboxlive.com"]
+                    "DnsQueries": [ "settings.xboxlive.com"]
             }
 
         }
