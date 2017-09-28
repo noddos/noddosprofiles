@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "694e8c7e-69f0-400f-824d-b94af7c7b7cc",
-    "DeviceProfileVersion": 2,
+    "DeviceProfileVersion": 3,
     "UploadStats": true,
     "Manufacturer": "Amazon",
     "Model": "FireTV",
@@ -18,7 +18,7 @@
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "None",
             "MustMatch": {
-                    "SsdpManufacturer": "Amazon.com, Inc.",
+                    "SsdpManufacturer": "Amazon",
                     "SsdpModelName": "AFTB"
             }
         }
