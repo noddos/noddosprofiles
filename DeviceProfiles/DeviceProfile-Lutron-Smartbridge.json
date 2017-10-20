@@ -1,16 +1,16 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "3b94f9a3-bc6f-49be-b386-87161693cfd0",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "Lutron",
+    "Model": "Smartbridge",
+    "ThingClass": "Light Switch",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"MdnsHostname": "*lutron._tcp.local."
 			}
         }
     ]

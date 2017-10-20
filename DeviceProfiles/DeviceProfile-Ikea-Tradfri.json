@@ -1,16 +1,16 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "d84d791e-66db-48cf-b405-894b804a188b",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "Ikea",
+    "Model": "Tradfri",
+    "ThingClass": "Light Switch",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"MdnsHostname": "*coap._udp.local."
 			}
         }
     ]

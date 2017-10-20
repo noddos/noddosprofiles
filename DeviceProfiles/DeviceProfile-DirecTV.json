@@ -1,16 +1,16 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "1d7401e1-b5a6-4178-8e6d-774946fd4280",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "DirecTV",
+    "Model": "STB",
+    "ThingClass": "Broadcast STB",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"SsdpManufacturer": "DIRECTV"
 			}
         }
     ]

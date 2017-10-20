@@ -42,16 +42,25 @@ JSON object that contains match criteria that must be met
 JSON object that contains match criteria where the listed items must be in the total set of items
 
 There are several criteria that can be used in MustMatch. Strings can be wildcarded either at the beginning of the string or at the end of the string.
-- SsdpManufacturer
-- SsdpModelName
+- MacOid
 - DhcpVendor
 - DhcpHostname
-- MacOid
+- SsdpManufacturer
+- SsdpModelName
 - SsdpFriendlyName
 - SsdpUdn
 - SsdpSerialNumber
 - SsdpManufacturerUrl
 - SsdpModelUrl
+- (SsdpDeviceType)
+- WsDiscoveryXAddrs
+- WsDiscoveryTypes
+- MdnsHostname
+- MdnsOs
+- MdnsHw
+- MdnsDeviceUrl
+- MdnsManufacturer
+- MdnsModelName
 
 The MustContain object only supports the DnsQueries criteria, which has a FQDN as value.
 

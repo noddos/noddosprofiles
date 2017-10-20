@@ -1,16 +1,16 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "8e9283f8-560e-4fdc-804b-1d90f8ff11a4",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "LG",
+    "Model": "WebOS TV",
+    "ThingClass": "Smart TV",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"SsdpModel": "LG Smart TV"
 			}
         }
     ]

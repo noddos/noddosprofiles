@@ -1,0 +1,17 @@
+{
+    "DeviceProfileUuid": "6e83f721-48eb-4658-89c1-54d4a3745f53",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Philips",
+    "Model": "Hue",
+    "ThingClass": "Light Switch",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Low",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"SsdpManufacturer": "Royal Philips Electronics"
+			}
+        }
+    ]
+}

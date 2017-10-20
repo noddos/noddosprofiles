@@ -1,0 +1,18 @@
+{
+    "DeviceProfileUuid": "57621151-2a15-46ed-b92d-d3069ae5bdd8",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Logitech",
+    "Model": "Harmony",
+    "ThingClass": "TV Remote",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"SsdpManufacturer": "Logitech",
+				"SsdpDeviceType": "urn:myharmony-com:device:harmony:1"
+			}
+        }
+    ]
+}

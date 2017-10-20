@@ -1,16 +1,16 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "7a1fb248-7c93-47eb-a63c-3f7d23e8e924",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "Apple",
+    "Model": "Apple TV v2",
+    "ThingClass": "OTT STB",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"MdnsHostname": "*appletv-v2._tcp.local."
 			}
         }
     ]

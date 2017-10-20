@@ -1,16 +1,16 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "f54d0a47-3ad3-4342-9b28-85c22c04e7f2",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "Bose",
+    "Model": "Soundtouch",
+    "ThingClass": "Speakers",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"MdnsHostname": "*soundtouch._tcp.local."
 			}
         }
     ]

@@ -1,0 +1,18 @@
+{
+    "DeviceProfileUuid": "a4152892-1a77-4c78-92eb-bc39d6931d8e",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Netgear",
+    "Model": "Home Gateway",
+    "ThingClass": "HomeGateway",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"SsdpManufacturer": "NETGEAR, Inc.",
+				"SsdpDeviceType": "urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+			}
+        }
+    ]
+}

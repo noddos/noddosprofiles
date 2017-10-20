@@ -1,16 +1,16 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "a7486a7e-c896-41a1-9111-01394fbbfd29",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "Mystrom",
+    "Model": "Wi-Fi Switch",
+    "ThingClass": "Power Switch",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"MdnsHostname": "*hap._tcp.local."
 			}
         }
     ]

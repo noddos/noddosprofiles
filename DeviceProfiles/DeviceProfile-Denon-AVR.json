@@ -1,5 +1,5 @@
 {
-    "DeviceProfileUuid": "",
+    "DeviceProfileUuid": "abf77df3-85c9-495f-9c77-760ecb372d79",
     "DeviceProfileVersion": 1,
     "UploadStats": true,
     "Manufacturer": "",
@@ -7,10 +7,10 @@
     "ThingClass": "",
     "Identifiers": [
         {
-            "IdentifyConfidenceLevel": "Medium",
+            "IdentifyConfidenceLevel": "Low",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"MdnsHostname": ""
+				"SsdpManufacturer": "Denon"
 			}
         }
     ]
