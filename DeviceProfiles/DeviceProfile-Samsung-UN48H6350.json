@@ -6,7 +6,7 @@
     "ManufacturerUrl": "http://www.samsung.com/sec",
     "Model": "UN48H6350",
     "ModelUrl": "http://www.samsung.com/sec",
-    "ThingClass": "SmartTV",
+    "ThingClass": "Smart TV",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "High",

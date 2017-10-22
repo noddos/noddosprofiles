@@ -4,7 +4,7 @@
     "UploadStats": true,
     "Manufacturer": "Netgear",
     "Model": "Home Gateway",
-    "ThingClass": "HomeGateway",
+    "ThingClass": "Home Gateway",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",

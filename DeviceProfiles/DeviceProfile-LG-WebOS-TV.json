@@ -10,7 +10,8 @@
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"SsdpModel": "LG Smart TV"
+				"SsdpModel": "LG Smart TV",
+				"SsdpDeviceType": "urn:schemas-upnp-org:device:Basic:1"
 			}
         }
     ]

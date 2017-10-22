@@ -4,7 +4,7 @@
     "UploadStats": true,
     "Manufacturer": "Vizio",
     "Model": "TV",
-    "ThingClass": "SmartTV",
+    "ThingClass": "Smart TV",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",

@@ -1,16 +1,17 @@
 {
     "DeviceProfileUuid": "abf77df3-85c9-495f-9c77-760ecb372d79",
-    "DeviceProfileVersion": 1,
+    "DeviceProfileVersion": 2,
     "UploadStats": true,
-    "Manufacturer": "",
-    "Model": "",
-    "ThingClass": "",
+    "Manufacturer": "Denon",
+    "Model": "AVR",
+    "ThingClass": "AV Receiver",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Low",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"SsdpManufacturer": "Denon"
+				"SsdpManufacturer": "Denon",
+				"SsdpDeviceType": "urn:schemas-upnp-org:device:MediaRenderer:1"
 			}
         }
     ]
