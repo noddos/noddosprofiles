@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "00d18757-9792-41c0-8b53-7c516fd186cc",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Naim Audio Ltd.",
+	"ManufacturerUrl": "https://www.naimaudio.com/",
+    "Model": "Mu-so",
+    "ModelUrl": "https://www.naimaudio.com/mu-so",
+    "ThingClass": "Speakers",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Naim Audio Ltd.",
+                    "SsdpModelName": "Mu-so"
+            }
+        }
+    ]
+}
