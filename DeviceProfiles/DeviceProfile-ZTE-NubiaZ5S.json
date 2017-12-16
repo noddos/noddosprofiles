@@ -1,0 +1,17 @@
+{
+    "DeviceProfileUuid": "cfe13227-b384-482f-9662-57855f33ecb5",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "ZTE",
+    "Model": "Nubia Z5S",
+    "ThingClass": "Phone Tablet",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"DhcpHostname": "Nubia-Z5S"
+			}
+        }
+    ]
+}

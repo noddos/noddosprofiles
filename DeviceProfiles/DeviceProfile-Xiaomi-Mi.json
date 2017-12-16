@@ -1,0 +1,18 @@
+{
+    "DeviceProfileUuid": "8c95557d-09da-485a-b307-ab77b2d7d177",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Xiaomi",
+    "Model": "Mi",
+    "ThingClass": "OTT STB",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Xiaomi",
+                    "SsdpModelName": "Xiaomi MediaRenderer"
+            }
+        }
+    ]
+}

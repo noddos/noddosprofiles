@@ -1,0 +1,17 @@
+{
+    "DeviceProfileUuid": "28c83ac3-14f1-4d8f-8a80-844e8a558dce",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Vivo",
+    "Model": "X9",
+    "ThingClass": "Phone Tablet",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"DhcpHostname": "vivo-X9"
+			}
+        }
+    ]
+}

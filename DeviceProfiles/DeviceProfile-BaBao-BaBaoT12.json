@@ -1,0 +1,18 @@
+{
+    "DeviceProfileUuid": "e73184ab-2cc8-482d-b01d-cf5bdcfe1ca1",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "BaBao",
+    "Model": "T12",
+    "ThingClass": "OTT STB",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "BaBao",
+                    "SsdpModelName": "BaBao T12"
+            }
+        }
+    ]
+}
