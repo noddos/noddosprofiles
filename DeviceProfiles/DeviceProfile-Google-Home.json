@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "79e58f8c-17c5-4e2f-a529-3b0499cd345b",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Google",
+    "ManufacturerUrl": "https://store.google.com",
+    "Model": "Home",
+	"ModelUrl": "https://store.google.com/product/google_home",
+    "ThingClass": "Smart Speakers",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+					"DhcpHostname": "Google-Home",
+					"MdnsModelName": "Google Home"
+            }
+        }
+    ]
+}

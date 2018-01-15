@@ -1,13 +1,13 @@
 {
     "DeviceProfileUuid": "76905373-748b-4e25-a550-296b3e1c7086",
-    "DeviceProfileVersion": 5,
+    "DeviceProfileVersion": 6,
     "UploadStats": true,
     "Manufacturer": "Google",
-    "Model": "Android device",
+    "Model": "generic Android device",
     "ThingClass": "Phone Tablet",
     "Identifiers": [
         {
-            "IdentifyConfidenceLevel": "High",
+            "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
                     "DhcpHostname": "android-*",
@@ -18,14 +18,11 @@
             }
         },
         {
-            "IdentifyConfidenceLevel": "High",
+            "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
                     "DhcpHostname": "android-*",
                     "DhcpVendor": "android-dhcp-*"
-            },
-            "MustContain": {
-                    "DnsQueries": [ "android.clients.google.com"]
             }
 		},
         {

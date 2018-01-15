@@ -13,6 +13,13 @@
 				"SsdpManufacturer": "Logitech",
 				"SsdpDeviceType": "urn:myharmony-com:device:harmony:1"
 			}
+        },
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"DhcpHostname": "HarmonyHub"
+			}
         }
     ]
 }
