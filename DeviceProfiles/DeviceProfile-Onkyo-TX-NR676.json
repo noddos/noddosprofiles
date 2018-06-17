@@ -1,0 +1,17 @@
+{
+    "DeviceProfileUuid": "c6aa38ed-c4e0-4aee-aef6-ebeca4cb0364",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Onkyo",
+    "Model": "TX-NR676",
+    "ThingClass": "AV Receiver",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+                    "MdnsModelName": "Onkyo TX-NR676"
+            }
+        }
+    ]
+}

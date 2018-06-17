@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "4b65fc88-743e-4cac-b757-b112716199e3",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Sony Corporation",
+    "ManufacturerUrl": "http://www.sony.net/",
+    "Model": "Bravia KDL-40W605B",
+    "ModelUrl": "",
+    "ThingClass": "Smart TV",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Sony Corporation",
+                    "SsdpModelName": "KDL-40W605B"
+            }
+        }
+    ]
+}

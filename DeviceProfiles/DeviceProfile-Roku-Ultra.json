@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "dfbb4c34-0609-45b4-8a2f-843f1bb8a0ea",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Roku",
+    "ManufacturerUrl": "http://www.roku.com/",
+    "Model": "Roku Ultra",
+    "ModelUrl": "http://www.roku.com/",
+    "ThingClass": "OTT STB",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Roku",
+                    "SsdpModelName": "Roku Ultra"
+            }
+        }
+    ]
+}

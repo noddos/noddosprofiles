@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "bf133978-3926-4f08-bded-d7dbeb442f0c",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Huawei",
+    "ManufacturerUrl": "https://www.huawei.com/",
+    "Model": "Honor8",
+	"ModelUrl": "https://store.hihonor.com/us/honor-8",
+    "ThingClass": "Phone Tablet",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"DhcpHostname": "Honor_8",
+				"DhcpVendor": "dhcpd-*"
+			}
+        }
+    ]
+}

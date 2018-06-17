@@ -13,6 +13,14 @@
                     "SsdpManufacturer": "Xiaomi",
                     "SsdpModelName": "Xiaomi MediaRenderer"
             }
-        }
+        },
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Xiaomi",
+                    "SsdpModelName": "Projection"
+            }
+		}
     ]
 }

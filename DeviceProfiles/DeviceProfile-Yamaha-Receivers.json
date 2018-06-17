@@ -4,7 +4,7 @@
     "UploadStats": true,
     "Manufacturer": "Yamaha",
     "Model": "Receiver",
-    "ThingClass": "Receiver",
+    "ThingClass": "AV Receiver",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "Medium",

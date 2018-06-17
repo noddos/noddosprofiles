@@ -1,0 +1,21 @@
+{
+    "DeviceProfileUuid": "d7f726ed-81c5-4ae2-b219-15f451719280",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Steam",
+    "ManufacturerUrl": "http://www.steampowered.com/",
+    "Model": "Steam Link",
+    "ThingClass": "Game Console",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Never",
+            "MustMatch": {
+                    "DhcpHostname": "steamlink*"
+            },
+			"MustContain": {
+                    "DnsQueries": [ "media.steampowered.com"]
+            }
+        }
+    ]
+}

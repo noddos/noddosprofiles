@@ -3,14 +3,16 @@
     "DeviceProfileVersion": 1,
     "UploadStats": true,
     "Manufacturer": "ZTE",
+    "ManufacturerUrl": "https://www.zteusa.com/",
     "Model": "Nubia Z5S",
+	"ModelUrl": "https://www.gsmarena.com/zte_nubia_z5s-5852.php",
     "ThingClass": "Phone Tablet",
     "Identifiers": [
         {
             "IdentifyConfidenceLevel": "High",
             "EnforceConfidenceLevel": "None",
 			"MustMatch": {
-				"DhcpHostname": "Nubia-Z5S"
+				"DhcpHostname": "nubia-Z5S"
 			}
         }
     ]
