@@ -1,0 +1,19 @@
+{
+    "DeviceProfileUuid": "68810243-f77c-4d71-ad4a-36f68a41eb02",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Dell",
+    "ManufacturerUrl": "https://www.dell.com/",
+    "Model": "1355 CNW Color MFP",
+    "ThingClass": "Printer",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "MdnsManufacturer": "DELL",
+                    "MdnsModelName": "Dell 1355cnw Color MFP"
+            }
+        }
+    ]
+}

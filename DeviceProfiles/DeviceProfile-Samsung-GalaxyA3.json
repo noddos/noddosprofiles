@@ -1,0 +1,18 @@
+{
+    "DeviceProfileUuid": "81412b79-d2e4-426a-a5c6-0cab5d7e4e56",
+    "DeviceProfileVersion": 2,
+    "UploadStats": true,
+    "Manufacturer": "Samsung",
+    "Model": "Galaxy S6",
+    "ThingClass": "Phone Tablet",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+                    "DhcpHostname": "SAMSUNG-SM-G920A",
+					"DhcpVendor": "android-dhcp*"
+            }
+        }
+    ]
+}

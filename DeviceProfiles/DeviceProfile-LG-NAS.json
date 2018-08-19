@@ -1,0 +1,18 @@
+{
+    "DeviceProfileUuid": "6200701d-40fa-4229-940c-c220714f0de6",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "LG",
+    "Model": "MediumPlus",
+    "ThingClass": "NAS",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"SsdpManufacturer": "(c) LG Electronics.",
+				"SsdpFriendlyName": "LG-NAS : MediaPlu"
+			}
+        }
+    ]
+}

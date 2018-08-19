@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "9d256d9a-f458-4030-af2b-c5d39378a519",
-    "DeviceProfileVersion": 1,
+    "DeviceProfileVersion": 2,
     "UploadStats": false,
     "Manufacturer": "Rasperry",
     "Model": "Rasperry Pi",
@@ -10,7 +10,7 @@
             "IdentifyConfidenceLevel": "Medium",
             "EnforceConfidenceLevel": "Low",
             "MustMatch": {
-                    "DhcpVendor": "*armv7l;BCM2835"
+                    "DhcpVendor": "*BCM2835"
             }
         }
     ]

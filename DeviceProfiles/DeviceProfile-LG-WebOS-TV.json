@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "8e9283f8-560e-4fdc-804b-1d90f8ff11a4",
-    "DeviceProfileVersion": 1,
+    "DeviceProfileVersion": 3,
     "UploadStats": true,
     "Manufacturer": "LG",
     "Model": "WebOS TV",
@@ -12,6 +12,22 @@
 			"MustMatch": {
 				"SsdpModel": "LG Smart TV",
 				"SsdpDeviceType": "urn:schemas-upnp-org:device:Basic:1"
+			}
+        },
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"DhcpHostname": "LGwebOSTV",
+				"SsdpServer": "*LGE WebOS TV/Version 0.9"
+			}
+        },
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"DhcpHostname": "LGwebOSTV",
+				"SsdpServer": "WebOS/*"
 			}
         }
     ]

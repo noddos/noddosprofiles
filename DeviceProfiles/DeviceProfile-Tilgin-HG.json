@@ -1,0 +1,17 @@
+{
+    "DeviceProfileUuid": "30f8758d-0cdd-41fe-a609-6358fe5e3607",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Tilgin",
+    "ManufacturerUrl": "http://www.tilgin.com",
+    "ThingClass": "Home Gateway",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Low",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "DhcpVendor": "Tilgin HG dslforum.org"
+            }
+        }
+    ]
+}

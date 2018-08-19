@@ -1,0 +1,17 @@
+{
+    "DeviceProfileUuid": "d8b94cb2-c2f8-49be-b55e-1a0e2ff62e8b",
+    "DeviceProfileVersion": 1,
+    "UploadStats": false,
+    "Manufacturer": "Google",
+    "Model": "Chromebook",
+    "ThingClass": "PC",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "Medium",
+            "EnforceConfidenceLevel": "Low",
+            "MustMatch": {
+                "SsdpUserAgent": "*Chrome OS"
+            }
+        }
+    ]
+}

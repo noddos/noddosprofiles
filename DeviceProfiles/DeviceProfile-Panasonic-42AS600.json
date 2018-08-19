@@ -1,0 +1,20 @@
+{
+    "DeviceProfileUuid": "f120e481-7ef7-4959-913f-e26e964e8f2a",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Panasonic",
+    "ManufacturerUrl": "http://www.panasonic.com/",
+    "Model": "42AS600",
+    "ModelUrl": "https://www.panasonic.com/uk/consumer/televisions/4K-LED-TV/tx-42as600b.html",
+    "ThingClass": "Smart TV",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "SsdpManufacturer": "Panasonic",
+                    "SsdpFriendlyName": "42AS600_Series"
+            }
+        }
+    ]
+}

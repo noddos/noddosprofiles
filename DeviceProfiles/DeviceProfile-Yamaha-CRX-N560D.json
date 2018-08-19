@@ -1,0 +1,19 @@
+{
+    "DeviceProfileUuid": "3764f185-adcf-44d1-a5be-45323e7868c8",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Yamaha",
+	"ManufacturerUrl": "https://www.yamaha.com/",
+    "Model": "CRX-N560D",
+    "ThingClass": "AV Receiver",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+			"MustMatch": {
+				"SsdpManufacturer": "Yamaha Corporation",
+				"SsdpModelName": "CRX-N560D"
+			}
+        }
+    ]
+}

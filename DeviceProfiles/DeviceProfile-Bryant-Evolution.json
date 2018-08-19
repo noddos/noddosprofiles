@@ -1,0 +1,22 @@
+{
+    "DeviceProfileUuid": "29a21314-7cdc-4b4f-9092-591e75b68589",
+    "DeviceProfileVersion": 1,
+    "UploadStats": true,
+    "Manufacturer": "Bryant",
+	"ManufacturerUrl": "https://www.bryant.com",
+    "Model": "Evolution Connex",
+    "ModelUrl": "https://www.myevolutionconnex.bryant.com/",
+    "ThingClass": "Thermostat",
+    "Identifiers": [
+        {
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "Low",
+            "MustContain": {
+                "DnsQueries": [ 
+                    "www.ota.eng.bryant.com",
+                    "www.api.eng.bryant.com"
+                ]
+            }
+        }
+    ]
+}

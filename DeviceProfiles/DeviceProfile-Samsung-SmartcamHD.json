@@ -1,6 +1,6 @@
 {
     "DeviceProfileUuid": "7d8f2ed0-38f9-455d-a816-89a1daeb6ae2",
-    "DeviceProfileVersion": 1,
+    "DeviceProfileVersion": 2,
     "UploadStats": true,
     "Manufacturer": "Samsung",
     "ManufacturerUrl": "http://www.samsungtechwin.com/",
@@ -15,6 +15,13 @@
                     "SsdpManufacturer": "SAMSUNG",
                     "SsdpModelName": "SNH-E6440BN"
             }
-        }
+        },
+		{
+            "IdentifyConfidenceLevel": "High",
+            "EnforceConfidenceLevel": "None",
+            "MustMatch": {
+                    "MdnsHostname": "SNH-E6440BN-SAMSUNG-SNH-E6440BN*"
+            }
+		}
     ]
 }
